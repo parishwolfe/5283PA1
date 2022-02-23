@@ -1,11 +1,13 @@
 # CS5283 PA1
 
-# Server
+This repository is a manual implementation of a http web server and web client using sockets
+
+## Server
 
 Usage:  
 `python3 web_server.py 8080 ./`
 
-# Client
+## Client
 
 Usage:  
 `python3 .\web_client.py http://127.0.0.1:8080/index.html HEAD`  
@@ -13,7 +15,7 @@ Usage:
 `python3 .\web_client.py http://127.0.0.1:8080/largeFile.html GET`  
 `python3 .\web_client.py http://127.0.0.1:8080/NonExistantFile.html GET`  
 
-# screenshots
+## screenshots
 
 Client and server operation:
 ![ClientAndServerOperation](/img/demo.png?raw=true "Server and Client Operation")  
