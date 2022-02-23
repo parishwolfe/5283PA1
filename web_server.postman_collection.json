@@ -65,7 +65,7 @@
 		{
 			"name": "501 Not Implemented",
 			"request": {
-				"method": "PUT",
+				"method": "POST",
 				"header": [],
 				"url": {
 					"raw": "http://localhost:8080/index.html",
